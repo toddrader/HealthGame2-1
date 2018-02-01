@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="us-en">
+<head>
+    <title>HealthGame2-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id=startGame>
+    <button id="startButton">Start</button>
+  </div>
+    <main id="game">
+      <div id="buttons">
+        <button id="attackButton">Attack</button>
+        <button id="healButton">Heal</button>
+        <button id="quitButton">Quit</button>
+      </div>
+      <p id="message"></p>
+      <div id="gameStats">
+        <h1> Player Stats</h1>
+        <div id="progressBars">
+          <div>
+          <h2>Health</h2>
+          <progress id="userHealth" value=userHealth max="40"></progress>
+          </div>
+          <div>
+          <h2>Heal</h2>
+          <progress id="userHeal" value=userHeal max="2"></progress>
+          </div>
+          <div>
+          <h2>Wins</h2>
+          <progress id="userWins" value=userWins max="3"></progress>
+          </div>
+        </div>
+        <h1> Enemy Stats</h1>
+          <div id="progressBars">
+            <div>
+            <h2>Health<h2>
+            <progress id="grantHealth" value=grantHealth max="10"></progress>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id=won>
+      <h1>You won!<h1>
+    </div>
+    <div id=grantWon>
+      <h1>Grant won!<h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
