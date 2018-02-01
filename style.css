@@ -1,0 +1,31 @@
+html {
+  background-color: #C0DAF8;
+}
+button {
+  background-color: #237A8B;
+  width: 145px;
+  height: 50px;
+  color: white;
+  font-size: 24px;
+  text-transform: capitalize;
+  border: 2px solid black;
+}
+#startGame, #buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+#gameStats {
+  border: 2px solid black;
+  margin: 20px;
+}
+#progressBars {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
